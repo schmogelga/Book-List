@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.cards.MyListsPanel">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="6" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="800" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <maximumSize width="800" height="720"/>
+      <minimumSize width="800" height="720"/>
+      <preferredSize width="800" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="d7ae">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="4c57c">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="527e6">
+        <constraints>
+          <grid row="0" column="5" row-span="6" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="142c7">
+        <constraints>
+          <grid row="0" column="0" row-span="6" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="8718a">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="bd48a">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="15"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <grid id="dafff" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="620"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="29b8" binding="scrollPaneLists">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="300" height="300"/>
+                <maximum-size width="300" height="300"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14144970"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2a8c7" class="javax.swing.JList" binding="jListLists">
+                <constraints/>
+                <properties>
+                  <alignmentY value="1.0"/>
+                  <fixedCellHeight value="-1"/>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono Medium" size="16"/>
+                  <selectionBackground color="-1315861"/>
+                  <selectionForeground color="-16777216"/>
+                  <selectionMode value="0"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <grid id="90333" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3fced" class="javax.swing.JButton" binding="editButton">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <focusPainted value="false"/>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono Medium" size="24" style="0"/>
+                  <horizontalAlignment value="4"/>
+                  <horizontalTextPosition value="10"/>
+                  <iconTextGap value="24"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="beb5f" class="javax.swing.JButton" binding="deleteButton">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <focusPainted value="false"/>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono Medium" size="24" style="0"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="10"/>
+                  <iconTextGap value="24"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="51263" class="javax.swing.JButton" binding="addListButton">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <focusPainted value="false"/>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono Medium" size="24" style="0"/>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="0"/>
+                  <iconTextGap value="24"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <hspacer id="27ca4">
+                <constraints>
+                  <grid row="0" column="4" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="916d">
+                <constraints>
+                  <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="d90ca">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="259" height="50"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <component id="dc22" class="javax.swing.JLabel" binding="labelFeedback">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="13" style="1"/>
+                  <foreground color="-3735544"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="4748a" class="javax.swing.JLabel" binding="bookListDescriptionLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="259" height="22"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono Light" size="24"/>
+              <text value="Description"/>
+            </properties>
+          </component>
+          <vspacer id="42501">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="deca1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="259" height="33"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono Medium" size="22" style="1"/>
+              <text value="Book Lists:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="6c0c" class="javax.swing.JLabel" binding="bookListNameLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="259" height="33"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono ExtraBold" size="36" style="1"/>
+          <text value="Select a Book List"/>
+        </properties>
+      </component>
+      <scrollpane id="b205f" binding="scrollPaneBooks">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="250"/>
+            <maximum-size width="350" height="250"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14144970"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e994d" class="javax.swing.JList" binding="jListBooks">
+            <constraints/>
+            <properties>
+              <alignmentY value="1.0"/>
+              <autoscrolls value="false"/>
+              <fixedCellHeight value="-1"/>
+              <focusable value="false"/>
+              <font name="JetBrains Mono Medium" size="16"/>
+              <selectionBackground color="-1315861"/>
+              <selectionForeground color="-16777216"/>
+              <selectionMode value="0"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="4ff6c" class="javax.swing.JLabel" binding="bookLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="259" height="33"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono Medium" size="22" style="1"/>
+          <text value="Books:"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <hspacer id="51ff0">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="30" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <grid id="8f62a" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="250"/>
+            <maximum-size width="350" height="250"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="83fb5" class="javax.swing.JLabel" binding="publisherLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono Medium" size="14"/>
+              <text value="Publisher:"/>
+            </properties>
+          </component>
+          <vspacer id="b2571">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="c7cd3" class="javax.swing.JLabel" binding="publishDateLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono Medium" size="14"/>
+              <text value="Publish date:"/>
+            </properties>
+          </component>
+          <component id="a18ab" class="javax.swing.JLabel" binding="authorsLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono Medium" size="14"/>
+              <text value="Authors:"/>
+            </properties>
+          </component>
+          <component id="44005" class="javax.swing.JLabel" binding="categoriesLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono Medium" size="14"/>
+              <text value="Categories:"/>
+            </properties>
+          </component>
+          <component id="c2232" class="javax.swing.JLabel" binding="titleLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="300" height="-1"/>
+                <preferred-size width="300" height="-1"/>
+                <maximum-size width="300" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="JetBrains Mono Medium" size="17" style="1"/>
+              <horizontalAlignment value="2"/>
+              <text value="TITLE"/>
+            </properties>
+          </component>
+          <component id="a1c33" class="javax.swing.JButton" binding="removeBookButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusPainted value="false"/>
+              <focusable value="false"/>
+              <font name="JetBrains Mono Medium" size="24" style="0"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="10"/>
+              <iconTextGap value="24"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
